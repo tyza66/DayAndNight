@@ -1,0 +1,59 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path":"pages/fuwu/fuwu",
+			"scrollIndicator":"none"
+		},
+		{
+			"path":"pages/dingdan/dingdan"
+		},
+		{
+			"path":"pages/gerenzhongxin/gerenzhongxin"
+		}
+	],
+	"globalStyle": {
+		"navigationBarTitleText": "首页",
+		"navigationBarTextStyle": "black",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"navigationStyle":"custom",
+		"scrollIndicator":"none"
+	},
+	"tabBar": {
+			"selectedColor":"#FE5E00",
+			"list": [
+				{
+					"text": "首页",
+					"pagePath": "pages/index/index",
+					"iconPath":"static/icons/shouye.png",
+					"selectedIconPath":"static/icons/shouye1.png"
+				},
+				{
+					"text": "审计",
+					"pagePath": "pages/fuwu/fuwu",
+					"iconPath":"static/icons/sj.png",
+					"selectedIconPath":"static/icons/sj1.png"
+				},
+				{
+					"text": "学习",
+					"pagePath": "pages/dingdan/dingdan",
+					"iconPath":"static/icons/xx.png",
+					"selectedIconPath":"static/icons/xx1.png"
+				},
+				{
+					"text": "个人中心",
+					"pagePath": "pages/gerenzhongxin/gerenzhongxin",
+					"iconPath":"static/icons/gerenzhongxin.png",
+					"selectedIconPath":"static/icons/gerenzhongxin1.png"
+				}
+			],
+			"backgroundColor":"#FDFDFD",
+			"fontSize":"10px"
+		}
+}
